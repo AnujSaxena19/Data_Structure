@@ -17,10 +17,11 @@ public class Insertion_Sort {
                 a[i+1]=a[i];
                 i--;
             }
+
             a[i+1]=key;
         }
-        for(int i=0;i<n;i++){
-            System.out.println(a[i]+" ");
+        for( int i=0;i<n;i++){
+            System.out.print(a[i]+" ");
         }
     }
 }
